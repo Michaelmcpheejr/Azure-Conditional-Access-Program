@@ -1,0 +1,7 @@
+PolicyName,IdentityScope,Tier,Intent,Exclusions,Notes
+CA-Users-Baseline-MFA,StandardUsers,N/A,Require MFA,None,Primary user enforcement policy
+CA-Users-Exception-<Reason>,StandardUsers,N/A,Handle exceptions explicitly,Case-by-case,Time-bound and reviewed
+CA-Admins-Tier0-StrongAuth,Admins,Tier0,Strongest auth requirements,BreakGlass,Highest privilege protections
+CA-Admins-Tier1-StrongAuth,Admins,Tier1,Strong auth requirements,BreakGlass,Infrastructure-level protections
+CA-Admins-Tier2-StrongAuth,Admins,Tier2,Strong auth requirements,BreakGlass,Workstation-level admin protections
+CA-Block-LegacyAuth-All,AllIdentities,N/A,Block legacy authentication,BreakGlass,Dedicated legacy auth block
