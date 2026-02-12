@@ -1,0 +1,4 @@
+Tier,Examples,Notes
+Tier0,Global Administrator or equivalent,Highest privilege identity control plane
+Tier1,Infrastructure and high-impact admin roles,Server and platform administration
+Tier2,Workstation admin and operator roles,Endpoint and support admin scope
