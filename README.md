@@ -19,4 +19,3 @@ This repository contains an enterprise-style Identity and Access Management desi
 - docs: program documentation and policy blueprints
 - blueprints: CSV inventories for policy tracking and tier mapping
 - evidence: screenshots and proof artifacts once implemented
-- diagrams: simple diagrams and legends (optional)
